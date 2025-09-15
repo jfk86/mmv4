@@ -1,0 +1,233 @@
+
+> mymaktab-original-enhanced@0.1.0 start
+> react-scripts start
+
+(node:6609) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:6609) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Failed to compile.
+
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+WARNING in [eslint] 
+src/hooks/useAssessmentCalculator.ts
+  Line 99:6:  React Hook useEffect has a missing dependency: 'calculateScores'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in ./src/App.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/App.css)
+Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    at We (/home/ubuntu/mymaktab-original-enhanced/node_modules/tailwindcss/dist/lib.js:35:2121)
+    at LazyResult.runOnRoot (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:361:16)
+    at LazyResult.runAsync (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:290:26)
+    at LazyResult.async (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:192:30)
+    at LazyResult.then (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:436:17)
+
+ERROR in ./src/index.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css)
+Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    at We (/home/ubuntu/mymaktab-original-enhanced/node_modules/tailwindcss/dist/lib.js:35:2121)
+    at LazyResult.runOnRoot (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:361:16)
+    at LazyResult.runAsync (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:290:26)
+    at LazyResult.async (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:192:30)
+    at LazyResult.then (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:436:17)
+
+webpack compiled with 2 errors and 1 warning
+No issues found.
+Compiling...
+Failed to compile.
+
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+WARNING in [eslint] 
+src/hooks/useAssessmentCalculator.ts
+  Line 99:6:  React Hook useEffect has a missing dependency: 'calculateScores'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in ./src/App.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/App.css)
+Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    at We (/home/ubuntu/mymaktab-original-enhanced/node_modules/tailwindcss/dist/lib.js:35:2121)
+    at LazyResult.runOnRoot (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:361:16)
+    at LazyResult.runAsync (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:290:26)
+    at LazyResult.async (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:192:30)
+    at LazyResult.then (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:436:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+ERROR in ./src/index.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css)
+Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    at We (/home/ubuntu/mymaktab-original-enhanced/node_modules/tailwindcss/dist/lib.js:35:2121)
+    at LazyResult.runOnRoot (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:361:16)
+    at LazyResult.runAsync (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:290:26)
+    at LazyResult.async (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:192:30)
+    at LazyResult.then (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:436:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+
+webpack compiled with 2 errors and 1 warning
+No issues found.
+Compiling...
+Failed to compile.
+
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+WARNING in [eslint] 
+src/hooks/useAssessmentCalculator.ts
+  Line 37:9:  The 'calculateScores' function makes the dependencies of useEffect Hook (at line 99) change on every render. Move it inside the useEffect callback. Alternatively, wrap the definition of 'calculateScores' in its own useCallback() Hook  react-hooks/exhaustive-deps
+
+ERROR in ./src/App.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/App.css)
+Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    at We (/home/ubuntu/mymaktab-original-enhanced/node_modules/tailwindcss/dist/lib.js:35:2121)
+    at LazyResult.runOnRoot (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:361:16)
+    at LazyResult.runAsync (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:290:26)
+    at LazyResult.async (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:192:30)
+    at LazyResult.then (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:436:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+
+ERROR in ./src/index.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css)
+Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    at We (/home/ubuntu/mymaktab-original-enhanced/node_modules/tailwindcss/dist/lib.js:35:2121)
+    at LazyResult.runOnRoot (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:361:16)
+    at LazyResult.runAsync (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:290:26)
+    at LazyResult.async (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:192:30)
+    at LazyResult.then (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:436:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+webpack compiled with 2 errors and 1 warning
+No issues found.
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/hooks/useAssessmentCalculator.ts
+Syntax error: ')' expected (91:3)
+ERROR in ./src/hooks/useAssessmentCalculator.ts
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/ubuntu/mymaktab-original-enhanced/src/hooks/useAssessmentCalculator.ts: Unexpected token, expected "," (91:3)
+
+  89 |       grade
+  90 |     };
+> 91 |   };
+     |    ^
+  92 |
+  93 |   useEffect(() => {
+  94 |     const scores = calculateScores();
+    at constructor (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:6627:19)
+    at TypeScriptParserMixin.unexpected (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:6647:16)
+    at TypeScriptParserMixin.expect (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:6927:12)
+    at TypeScriptParserMixin.parseCallExpressionArguments (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:11238:14)
+    at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:11181:29)
+    at TypeScriptParserMixin.parseSubscript (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:11115:19)
+    at TypeScriptParserMixin.parseSubscript (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:9353:18)
+    at TypeScriptParserMixin.parseSubscripts (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:11089:19)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:11080:17)
+    at TypeScriptParserMixin.parseUpdate (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:11061:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:11041:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:9852:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:10894:61)
+    at TypeScriptParserMixin.parseExprOps (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:10899:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:10876:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:10826:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:9801:20)
+    at /home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:10795:39
+    at TypeScriptParserMixin.allowInAnd (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:12422:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:10795:17)
+    at TypeScriptParserMixin.parseVar (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:13384:91)
+    at TypeScriptParserMixin.parseVarStatement (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:13230:10)
+    at TypeScriptParserMixin.parseVarStatement (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:9493:31)
+    at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:12851:23)
+    at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:9527:18)
+    at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:12767:17)
+    at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:12747:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:13316:61)
+    at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:13309:10)
+    at TypeScriptParserMixin.parseBlock (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:13297:10)
+    at TypeScriptParserMixin.parseFunctionBody (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:12101:24)
+    at TypeScriptParserMixin.parseArrowExpression (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:12076:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:11686:12)
+    at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:11326:23)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:11076:23)
+    at TypeScriptParserMixin.parseUpdate (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:11061:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:11041:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:9852:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:10894:61)
+    at TypeScriptParserMixin.parseExprOps (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:10899:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:10876:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:10826:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:9801:20)
+    at /home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:10795:39
+    at TypeScriptParserMixin.allowInAnd (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:12422:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:10795:17)
+    at TypeScriptParserMixin.parseVar (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:13384:91)
+    at TypeScriptParserMixin.parseVarStatement (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:13230:10)
+    at TypeScriptParserMixin.parseVarStatement (/home/ubuntu/mymaktab-original-enhanced/node_modules/@babel/parser/lib/index.js:9493:31)
+
+ERROR in ./src/App.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/App.css)
+Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    at We (/home/ubuntu/mymaktab-original-enhanced/node_modules/tailwindcss/dist/lib.js:35:2121)
+    at LazyResult.runOnRoot (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:361:16)
+    at LazyResult.runAsync (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:290:26)
+    at LazyResult.async (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:192:30)
+    at LazyResult.then (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:436:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+
+ERROR in ./src/index.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css)
+Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    at We (/home/ubuntu/mymaktab-original-enhanced/node_modules/tailwindcss/dist/lib.js:35:2121)
+    at LazyResult.runOnRoot (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:361:16)
+    at LazyResult.runAsync (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:290:26)
+    at LazyResult.async (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:192:30)
+    at LazyResult.then (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:436:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+ERROR in [eslint] 
+src/hooks/useAssessmentCalculator.ts
+  Line 91:3:  Parsing error: ')' expected
+
+webpack compiled with 4 errors
+ERROR in src/hooks/useAssessmentCalculator.ts:91:4
+TS1005: ')' expected.
+    89 |       grade
+    90 |     };
+  > 91 |   };
+       |    ^
+    92 |
+    93 |   useEffect(() => {
+    94 |     const scores = calculateScores();
+
+Compiling...
+Failed to compile.
+
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+ERROR in ./src/App.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/App.css)
+Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    at We (/home/ubuntu/mymaktab-original-enhanced/node_modules/tailwindcss/dist/lib.js:35:2121)
+    at LazyResult.runOnRoot (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:361:16)
+    at LazyResult.runAsync (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:290:26)
+    at LazyResult.async (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:192:30)
+    at LazyResult.then (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:436:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+
+ERROR in ./src/index.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css)
+Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    at We (/home/ubuntu/mymaktab-original-enhanced/node_modules/tailwindcss/dist/lib.js:35:2121)
+    at LazyResult.runOnRoot (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:361:16)
+    at LazyResult.runAsync (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:290:26)
+    at LazyResult.async (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:192:30)
+    at LazyResult.then (/home/ubuntu/mymaktab-original-enhanced/node_modules/postcss/lib/lazy-result.js:436:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+webpack compiled with 2 errors
+No issues found.
